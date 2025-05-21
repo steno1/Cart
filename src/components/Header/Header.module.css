@@ -1,0 +1,415 @@
+.header {
+  position: relative;
+  width: 100%;
+  max-width: 1439px;
+  height: 58px;
+  background-color: #23856d;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 1438;
+  height: 46;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+.phone-number {
+  width: 104;
+  height: 24;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.phone-icon {
+  width: 16.00050163269043;
+  height: 16.000391006469727;
+  color: #ffffff;
+}
+.email {
+  width: 219;
+  height: 24;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.promoSection {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 312px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.socialFollow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.socialNav ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.followText {
+  width: 83px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.InstagramIcon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+}
+
+.LinkedInIcon {
+  width: 15.99899959564209;
+  height: 11.23900032043457;
+  top: 2px;
+  left: 0.5px;
+  position: relative;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.FacebookIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  left: -0.5px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.TwitterIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 4px;
+  vertical-align: middle;
+}
+
+/* headerSecondary */
+.headerSecondary {
+  width: 1437;
+  height: 58;
+  top: 70px;
+  display: flex !important;
+  align-items: center !important;
+}
+.headerWrapper {
+  max-width: 1439px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 108;
+  height: 32;
+  top: 13px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  padding: 0 20px;
+}
+
+.navList {
+  width: 361px;
+  height: 25px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex !important;
+}
+.nav a.navLink {
+  width: 43px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem {
+  color: #737373;
+  width: 38;
+  height: 28;
+  top: -1px;
+  left: 6px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.dropdownContainer {
+  display: inline-flex;
+  align-items: center;
+}
+.dropdownIcon {
+  color: #252b42;
+}
+
+.dropdownText {
+  margin-right: 12px;
+  color: #737373;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  width: 38;
+  height: 28;
+  top: -1px;
+  left: 6px;
+}
+
+.userActions {
+  width: 324px;
+  height: 54px;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  display: flex;
+  width: auto;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.iconList {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 2px;
+  padding: 0;
+  color: #23a6f0;
+}
+
+.loginLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 119px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #23a6f0;
+}
+
+.userIcon {
+  width: 12px;
+  height: 12px;
+  color: #23a6f0;
+}
+.iconWithBadge {
+  top: 15px;
+  position: relative;
+  height: 12px;
+}
+
+.SearchIcon {
+  position: relative;
+  left: 5px;
+}
+.mobileNav {
+  display: none;
+}
+
+.rightIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* By default, hide the mobile icons */
+.menuIconMobile,
+.cartIconMobile {
+  display: none;
+}
+
+/* Hide desktop cart icon */
+.searchIconDesktop {
+  display: none;
+}
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .headerSecondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: white;
+  }
+
+  .logo {
+    width: 108px;
+    height: 32px;
+    top: 13px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .navList,
+  .loginLink,
+  .heartIcon,
+  .userIcon,
+  .Icon,
+  .dropdownContainer,
+  .login,
+  .nav,
+  .userActions > a,
+  .userActions span {
+    display: none !important;
+  }
+
+  .iconList {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    top: -200px;
+  }
+
+  .iconList img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .NotificationIcon {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    background-color: white;
+  }
+
+  .mobileNav a[href="/product"] {
+    color: #737373;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+  .mobileNav a[href="/home"] {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #737373;
+  }
+  .mobileNav a[href="/pricing"] {
+    color: #737373;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+  .mobileNav a[href="/contact"] {
+    color: #737373;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+
+  /* Show menu and cart icons on mobile */
+  .searchIconDesktop,
+  .menuIconMobile,
+  .cartIconMobile {
+    display: block;
+  }
+  .searchIconDesktop {
+    color: #252b42;
+  }
+}
