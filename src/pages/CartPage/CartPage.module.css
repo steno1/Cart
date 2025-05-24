@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+  padding-right: 3rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .productCardWrapper{
+    margin-top: 30rem; 
+    width: 400px;
+    object-fit: cover;
+  }
+}

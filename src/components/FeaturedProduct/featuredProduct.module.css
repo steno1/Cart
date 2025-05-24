@@ -1,0 +1,352 @@
+.featuredProduct {
+  width: 1124px;
+  height: 1241px;
+  position: relative;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 80px;
+
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+
+  position: relative;
+  text-align: center;
+
+}
+
+.sectionTitle {
+  width: 191px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+.sectionSubtitle {
+  width: 299px;
+  height: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252b42;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  max-width: 600px;
+  width: 347px;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+
+.productsRow {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 24px;
+
+  width: 1124px;
+  height: 1241px;
+  left: 158px;
+  gap: 24px;
+  padding-top: 80px;
+}
+.productGrid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 183px) !important;
+  grid-template-rows: auto auto !important;
+  column-gap: 20px !important;
+  row-gap: 10px !important;
+  width: 1083px !important;
+  height: auto !important;
+}
+
+.productCard1 {
+  background-color: #d4f4dd;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard2 {
+  background-color: #f9d5e5;
+  width: 183pxpx;
+  height: 400px;
+}
+
+.productCard3 {
+  background-color: #c9e4de;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard4 {
+  background-color: #f7ede2;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard5 {
+  background-color: #ffd6d6;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard6 {
+  background-color: #e1bee7;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard7 {
+  background-color: #bbdefb;
+  width: 183px;
+  height: 400px;
+}
+
+.productCard8 {
+  background-color: #fff9c4;
+  width: 183px;
+  height: 400px;
+}
+
+.productGrid article {
+  width: 183px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productFrame {
+  width: 183px;
+  height: 162px;
+  gap: 10px;
+  padding: 25px 25px 35px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+  margin-bottom: 60px;
+  z-index: 999;
+}
+
+.productTitle {
+  width: 131px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252b42;
+}
+
+.productCategory {
+  width: 146px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+
+.priceOriginal {
+  width: 52px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.priceDiscount {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #23856d;
+}
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  position: relative;
+  right: 100px;
+}
+.loadMoreBtn {
+  display: block;
+  width: 261px;
+  height: 52px;
+  padding: 15px 40px;
+  gap: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #23a6f0;
+
+  background-color: transparent;
+  border: 1px solid #23a6f0;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.loadMoreBtn:hover {
+  background-color: #23a6f0;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  [data-index="5"],
+  [data-index="6"],
+  [data-index="7"],
+  [data-index="8"] {
+    display: none !important;
+  }
+
+  .productGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 15px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    right: 180px !important;
+  }
+
+  .productGrid > div[data-index] {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .productFrame {
+    text-align: center !important;
+    padding-right: 20px !important;
+    margin-bottom: 10px !important;
+    width: 200px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .featuredProduct {
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .productsRow {
+    width: 100% !important;
+    height: auto !important;
+    gap: 15px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .sectionTitle {
+    font-size: 18px !important;
+    width: auto !important;
+  }
+
+  .sectionSubtitle {
+    font-size: 20px !important;
+    width: auto !important;
+  }
+
+  .productGrid {
+    position: relative !important;
+  }
+
+  .sectionDescription {
+    font-size: 14px !important;
+    max-width: 90% !important;
+    width: auto !important;
+  }
+
+  .loadMoreWrapper {
+    right: 0 !important;
+    padding-top: 30px !important;
+    justify-content: center !important;
+    padding: 10px !important;
+    top: 0px !important;
+  }
+
+  .loadMoreBtn {
+    width: 350px !important;
+    position: absolute !important;
+    top: 1800px !important;
+    left: -470px !important;
+  }
+
+  .sectionHeader {
+    position: relative !important;
+    right: 100px !important;
+  }
+}
