@@ -1,0 +1,142 @@
+.servicesSection {
+  width: 1050px;
+  height: 616px;
+  position: relative;
+  left: 195px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionTitle {
+  width: 191px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.sectionSubtitle {
+  width: 299px;
+  height: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  width: 347px;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.container {
+  width: 1045px;
+  height: 274px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.box {
+  width: 328px;
+  height: 254px;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+
+
+.iconWrapper {
+  width: 72px;
+  height: 72px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.title {
+  width: 235px;
+  height: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  text-align: center;
+
+}
+
+.subtitle {
+  width: 225px;
+  height: 40px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .servicesSection {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-left: 10px !important;
+    box-sizing: border-box;
+  }
+
+  .container {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  
+    box-sizing: border-box;
+  }
+
+  .box {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
