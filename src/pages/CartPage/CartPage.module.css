@@ -1,16 +1,32 @@
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem; 
-  padding-right: 3rem;
-  box-sizing: border-box;
-  overflow-x: hidden;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
+  padding-right: 3rem !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
 }
 
+.productCardWrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 3rem !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+/* Make sure children grow naturally */
+.productCardWrapper > * {
+  position: relative !important;
+  height: auto !important;
+  overflow: visible !important;
+  flex-shrink: 0 !important;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .productCardWrapper{
-    margin-top: 30rem; 
-    width: 400px;
-    object-fit: cover;
+  .productCardWrapper {
+    margin-top: 2rem !important;
+    width: 100% !important;
   }
 }

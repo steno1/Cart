@@ -2,13 +2,14 @@
   width: 1050px;
   height: 616px;
   position: relative;
-  left: 195px;
+  left: 105px;
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   gap: 80px;
   margin-top: 80px;
+  top: -30px;
 }
 
 .sectionHeader {
@@ -96,6 +97,7 @@
   letter-spacing: 0.1px;
   color: #252b42;
   text-align: center;
+  margin-bottom: 20px;
 
 }
 
@@ -109,6 +111,7 @@
   letter-spacing: 0.2px;
   color: #737373;
   text-align: center;
+
 }
 
 
@@ -121,6 +124,7 @@
     padding-right: 15px !important;
     margin-left: 10px !important;
     box-sizing: border-box;
+    margin-top: 290px;
   }
 
   .container {
