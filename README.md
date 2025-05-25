@@ -49,7 +49,8 @@ This project involves designing and integrating the **shopping cart page** of an
 
 ## Deployment  
 
-The project is deployed and accessible online via Netlify:  
+The project is deployed and accessible online via Netlify: 
+https://standardtest.netlify.app/ 
 
 
 ---
