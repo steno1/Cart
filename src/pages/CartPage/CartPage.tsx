@@ -3,6 +3,7 @@ import styles from './CartPage.module.css';
 import ProductCard from '../../components/ProductCard/ProductCard';
 import FeaturedProduct from '../../components/FeaturedProduct/FeaturedProduct';
 import Services from '../../services/Services';
+import Footer from '../../components/footer/Footer';
 
 const CartPage = () => {
   return (
@@ -10,11 +11,12 @@ const CartPage = () => {
       <Header />
       <main>
         <div>
-           <ProductCard /> 
+          <ProductCard />
         </div>
         <div className={styles.productCardWrapper}>
-           <FeaturedProduct /> 
+          <FeaturedProduct />
           <Services />
+          <Footer />
         </div>
       </main>
     </div>

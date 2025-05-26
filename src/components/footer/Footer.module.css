@@ -1,0 +1,316 @@
+.footerContainer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.innerContainer {
+  width: 1050px;
+  margin-left: 195px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.footerSection1,
+.footerSection2,
+.footerSection3,
+.footerSection4,
+.footerSection5 {
+  width: 148px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerSection5 {
+  width: 321px;
+  height: auto;
+  background-color: white;
+  color: #000000;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footerHeading {
+  width: 115px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.footerLink,
+.footerLinkAboutUs {
+  width: 67px;
+  height: 24px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkCareer {
+  width: 50px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkHiring {
+  width: 97px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkBlog {
+  width: 33px;
+  height: 24px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLink:hover,
+.footerLinkAboutUs:hover,
+.footerLinkCareer:hover,
+.footerLinkHiring:hover,
+.footerLinkBlog:hover {
+  text-decoration: underline;
+}
+
+.footerLinkMarket {
+  width: 142px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkAnalytic {
+  width: 97px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkChat {
+  text-decoration: none;
+  width: 68px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkSupport {
+  width: 134px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkGadget {
+  width: 102px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkDemo {
+  width: 111px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkCustomer {
+  width: 79px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerLinkApi {
+  width: 25px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerSection5 {
+  color: #000000;
+  width: 321px;
+  height: auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+}
+
+.formControl {
+  display: flex;
+  align-items: center;
+  width: 321px;
+  height: 58px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+}
+
+.inputStyle {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background: #f9f9f9;
+  font-size: 14px;
+  color: #000000;
+}
+
+.subscribeButton {
+  width: 117px;
+  height: 100%;
+  background: #23a6f0;
+  color: white;
+  border: 1px solid #e6e6e6;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footerNote {
+  margin-top: 8px;
+  width: 155px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerBottom {
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 16px 10px;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fff;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .innerContainer {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 16px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerSection1,
+  .footerSection2,
+  .footerSection3,
+  .footerSection4,
+  .footerSection5 {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 16px;
+  }
+  .inputStyle {
+    width: 80%;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+
+  .footerNote {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 18px;
+    color: #737373;
+  }
+
+  .footerBottom {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 12px 16px;
+    white-space: normal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
